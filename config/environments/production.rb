@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #使程序在生产环境中能服务静态文件
+  config.serve_static_assets = true
 end
