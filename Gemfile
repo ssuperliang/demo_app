@@ -52,4 +52,5 @@ group :development do
 end
 
 gem 'bcrypt'
+gem 'faker'
 
